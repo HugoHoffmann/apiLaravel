@@ -1,5 +1,3 @@
-# desWebI-laravel
-
 ## Install
 
 1. Clone repository
