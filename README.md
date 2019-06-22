@@ -16,6 +16,7 @@ DB_PASSWORD=
 
 ```
 php artisan migrate
+php artisan serve
 ```
 
 Ps.: application running on port 80.
