@@ -69,7 +69,7 @@ $(function(){
 
          },
          error: function(error){
-           debugger;
+
          }
       });
 
@@ -99,7 +99,13 @@ $(function(){
     type: 'PUT',
     dataType: 'json',
     data: {"todo": text},
-    url: 'http://localhost:8000/todos/' + id
+    url: 'http://localhost:8000/api/todo/' + id,
+    success: function(response){
+      debugger;
+    },
+    error: function(error){
+      debugger;
+    }
   });
 
   el.empty();
