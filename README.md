@@ -6,7 +6,7 @@
 DB_CONNECTION=pgsql
 DB_HOST=postgresql
 DB_PORT=5432
-DB_DATABASE=deswebii
+DB_DATABASE=tb_todo
 DB_USERNAME=postgres
 DB_PASSWORD=
 ```
@@ -17,4 +17,4 @@ php artisan migrate
 php artisan serve
 ```
 
-Ps.: application running on port 80.
+Ps.: application running on port 8000.
